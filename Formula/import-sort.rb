@@ -20,7 +20,7 @@ class ImportSort < Formula
   test do
     output = shell_output("echo 'import Foo\\nimport qualified Bar as B' | #{bin}/import-sort")
 
-    assert_match /Bar.*Foo/m, output
+    assert_match(/Bar.*Foo/m, output)
 
     true
   end
