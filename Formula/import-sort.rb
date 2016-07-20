@@ -5,9 +5,9 @@ class ImportSort < Formula
 
   desc "A tool to sort Haskell imports"
   homepage "https://github.com/joshuaclayton/import-sort"
-  url "https://github.com/joshuaclayton/import-sort/archive/v0.1.0.0.tar.gz"
-  version "0.1.0.0"
-  sha256 "0a9cfd9d8f1ab46e407be2e48207654ede427f683de57256d393da7b1332bbf1"
+  url "https://github.com/joshuaclayton/import-sort/archive/v0.2.0.0.tar.gz"
+  version "0.2.0.0"
+  sha256 "900df16e961cc8fe7fa72af98ac1fa358a7aa0b5418ff5c720eb05abde8aabe0"
   head "https://github.com/joshuaclayton/import-sort.git"
 
   depends_on "ghc" => :build
