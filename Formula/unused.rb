@@ -13,6 +13,7 @@ class Unused < Formula
   depends_on "ghc" => :build
   depends_on "cabal-install" => :build
   depends_on "ag" => :build
+  depends_on "ctags" => :build
 
   def install
     install_cabal_package
