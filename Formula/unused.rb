@@ -8,7 +8,7 @@ class Unused < Formula
   url "https://github.com/joshuaclayton/unused/archive/v0.6.0.1.tar.gz"
   version "0.6.0.1"
   sha256 "e9abc862f6259c2f8e9159ac4c95df7ff657fc1f11bbafd05f533ff6a456243f"
-  head "https://github.com/joshuaclayton/unused.git"
+  head "https://github.com/joshuaclayton/unused.git", branch: "fix-v1"
 
   depends_on "ghc" => :build
   depends_on "cabal-install" => :build
