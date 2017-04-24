@@ -5,15 +5,16 @@ class Unused < Formula
 
   desc "A command line tool to identify unused code."
   homepage "https://github.com/joshuaclayton/unused"
-  url "https://github.com/joshuaclayton/unused/archive/v0.7.0.0.tar.gz"
-  version "0.7.0.0"
-  sha256 "ba6fc02bccf59f2d2d70e3b93e7168d8358f91d8704663eafc7dd712efb96251"
+  url "https://github.com/joshuaclayton/unused/archive/v0.8.0.0.tar.gz"
+  version "0.8.0.0"
+  sha256 "a16dd109bef7943b95e62a0b4eeec4299d6900c1062033cb2d1ef4d59f77b023"
   head "https://github.com/joshuaclayton/unused.git"
 
   depends_on "ghc" => :build
   depends_on "cabal-install" => :build
   depends_on "ag" => :recommended
   depends_on "ctags" => :recommended
+  depends_on "rg" => :optional
 
   def install
     install_cabal_package
