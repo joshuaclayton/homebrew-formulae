@@ -5,9 +5,9 @@ class Unused < Formula
 
   desc "A command line tool to identify unused code."
   homepage "https://github.com/joshuaclayton/unused"
-  url "https://github.com/joshuaclayton/unused/archive/v0.9.0.0.tar.gz"
-  version "0.9.0.0"
-  sha256 "af19cda3311397bbb9ebfb9c48bc574b0e3d911ea52c2d8151e745ee5f99b33d"
+  url "https://github.com/joshuaclayton/unused/archive/0.10.0.0.tar.gz"
+  version "0.10.0.0"
+  sha256 "5994b98e350433617f769412e4d062234cce69e6e83d7fbde034085c55a388d6"
   head "https://github.com/joshuaclayton/unused.git"
 
   depends_on "ghc" => :build
