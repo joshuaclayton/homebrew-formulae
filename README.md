@@ -2,7 +2,7 @@
 
 A [Homebrew tap] for my projects.
 
-[Homebrew tap]: https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/brew-tap.md
+[Homebrew tap]: https://docs.brew.sh/Taps
 
 ## Usage
 
@@ -15,11 +15,11 @@ brew tap joshuaclayton/formulae
 Install the packages it contains like any other Homebrew package:
 
 ```sh
-brew install unused
+brew install fnd
 ```
 
 ## Contributing
 
 Submit pull requests against the respective repos:
 
-* [unused](https://github.com/joshuaclayton/unused)
+* [fnd](https://github.com/joshuaclayton/fnd)
