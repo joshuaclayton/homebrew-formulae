@@ -22,7 +22,7 @@ class Fnd < Formula
     assert_match /bar\.html\.erb/, output
     refute_match /foo\.rb/, output
 
-    output = shell_output("#{bin}/fnd '\.rb' -r")
+    output = shell_output("#{bin}/fnd '\\.rb' -r")
 
     assert_match /bar\.rb/, output
     assert_match /foo\.rb/, output
