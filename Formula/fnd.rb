@@ -1,8 +1,8 @@
 class Fnd < Formula
   desc "Find files fast"
   homepage "https://github.com/joshuaclayton/fnd"
-  url "https://github.com/joshuaclayton/fnd/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "9c502d3614aef4191af05e76c304ebee64450820473458238426a1566cfebf66"
+  url "https://github.com/joshuaclayton/fnd/archive/refs/tags/0.2.0.tar.gz"
+  sha256 "5763d40e416223b2fe1cdfe6fd49a6a29ef5404e693dd9b99bbe532224b3f00f"
   license "MIT"
 
   depends_on "rust" => :build
